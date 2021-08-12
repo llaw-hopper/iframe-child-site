@@ -7,7 +7,7 @@ function CallToAction() {
     if (window.parent === window) {
       return;
     }
-    window.parent.postMessage("open", "http://localhost:3000");
+    window.parent.postMessage("open", "https://llaw-hopper.github.io");
   }, []);
 
   return (

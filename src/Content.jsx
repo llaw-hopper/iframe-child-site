@@ -7,13 +7,13 @@ function Content() {
     if (window === window.parent) {
       return;
     }
-    window.parent.postMessage('close', 'http://localhost:3000')
+    window.parent.postMessage('close', 'https://llaw-hopper.github.io')
   },[])
   const onClick = React.useCallback(() => {
     if (window === window.parent) {
       return;
     }
-    window.parent.postMessage('confirm', 'http://localhost:3000')
+    window.parent.postMessage('confirm', 'https://llaw-hopper.github.io')
   },[])
   return (
     <div id="beach">
