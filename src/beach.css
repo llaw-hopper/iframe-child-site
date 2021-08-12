@@ -1,0 +1,13 @@
+#beach {
+  padding: 20px;
+  background: white;
+  flex: 1 1 auto;
+}
+
+#beach img {
+  width: 100%;
+}
+
+#beach button {
+  padding: 12px;
+}
