@@ -2,6 +2,7 @@
   padding: 20px;
   background: white;
   flex: 1 1 auto;
+  overflow-y: scroll;
 }
 
 #beach img {
